@@ -2,12 +2,7 @@ from random import randint
 from pygame import *
 init()
 
-C_WHITE = (255, 255, 255)
-C_RED = (255, 0, 0)
-C_GREEN = (0, 255, 0)
-C_BLACK = (0, 0, 0)
-C_FLOOR = (12, 17, 34)
-C_WALLS = (86, 4, 1)
+a = (123,243,123)
 
 big_font = font.SysFont("Corbel", 72, True)
 regular_font = font.SysFont("Corbel", 45, True)
